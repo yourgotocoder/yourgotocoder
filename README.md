@@ -1,6 +1,6 @@
 <h2 align="center">Hello, I'm Sudarshan Rai  <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h2>
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yourgotocoder&theme=react)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yourgotocoder&theme=monokai)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourgotocoder)](https://git.io/streak-stats)
 
