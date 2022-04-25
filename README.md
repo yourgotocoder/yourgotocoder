@@ -2,7 +2,7 @@
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yourgotocoder&theme=monokai)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourgotocoder)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourgotocoder&theme=monokai)](https://git.io/streak-stats)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=yourgotocoder&theme=dark&show_icons=true&count_private=true_hide_rank=false_show_owner_true)
 
