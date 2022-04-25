@@ -6,7 +6,7 @@
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=yourgotocoder&theme=monokai&show_icons=true&count_private=true_hide_rank=false_show_owner_true)
 
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=yourgotocoder)
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=yourgotocoder&theme=monokai)
 
 <h3>About me</h3>
 <p>I'm a fullstack engineer with 3+ years of experience</p>
