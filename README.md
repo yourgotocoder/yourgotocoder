@@ -9,7 +9,8 @@
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/3-stats.svg)
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/4-productive-time.svg)
 <!--  -->
-[![GitHub Streak](https://github-commit-streaks.herokuapp.com?user=yourgotocoder&theme=monokai&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-commit-streaks.herokuapp.com?user=yourgotocoder&theme=monokai&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=yourgotocoder&theme=monokai&show_icons=true&count_private=true_hide_rank=false_show_owner_true)
 
@@ -20,4 +21,4 @@
 <p>My portfolio http://yourgotocoder.com/.</p>
 
 
-![Views](https://komarev.com/ghpvc/?username=yourgotocoder&color=yellow&style=for-the-badge&label=PORTFOLIO+VIEWS)
+![Views](https://komarev.com/ghpvc/?username=yourgotocoder&color=yellow&style=for-the-badge&label=PORTFOLIO+VIEWS)(https://yourgotocoder.com/)
