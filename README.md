@@ -8,7 +8,7 @@
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/2-most-commit-language.svg)
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/3-stats.svg)
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/4-productive-time.svg)
-<!--  -->
+<!--Keeping the streak alive  -->
 [![GitHub Streak](https://github-commit-streaks.herokuapp.com?user=yourgotocoder&theme=monokai&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 
