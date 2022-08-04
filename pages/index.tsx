@@ -1,8 +1,9 @@
+import { NextPage } from "next";
 import Head from "next/head";
 import FooterComponent from "../components/Footer/FooterComponent";
 import HomeComponent from "../components/Home/HomeComponent";
 
-export default function Home() {
+ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
@@ -11,7 +12,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeComponent />
-      <FooterComponent />
     </div>
   );
+}
+
+export default Home;
+
+export async function getStaticProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
 }
