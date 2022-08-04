@@ -33,6 +33,18 @@
     font-size: 3rem;
 }
 
+.fade-out-text {
+    animation: fade-out-animation 2s linear forwards;
+}
+
+@keyframes fade-out-animation {
+    
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
 @keyframes textclip {
     to {
         background-position: 200% center;
