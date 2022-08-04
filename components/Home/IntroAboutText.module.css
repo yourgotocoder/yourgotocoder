@@ -1,0 +1,17 @@
+.typewriter-cursor {
+    font-size: 2rem;
+    color: white;
+    animation: blink-caret 0.8s linear infinite;
+}
+
+/* The typing effect */
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
