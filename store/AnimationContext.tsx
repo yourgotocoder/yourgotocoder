@@ -12,12 +12,15 @@ type Props = {
     children: React.ReactNode;
 };
 
+const animationTime = 15;
+
 export function AnimationContextProvider(props: Props) {
     const [animationStepCount, setAnimationStepCount] = useState(0);
+    
 
     useEffect(() => {
         let timer;
-        if (animationStepCount < 10) {
+        if (animationStepCount < animationTime) {
             timer = setTimeout(() => {
                 const animationStep = localStorage.getItem("animation-step");
                 if (animationStep && +animationStep > 5) {

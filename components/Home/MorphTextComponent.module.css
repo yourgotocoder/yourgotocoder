@@ -1,0 +1,45 @@
+.morph-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.morphing-hide {
+    animation: hide 0.5s forwards;
+}
+
+.morphing-show {
+    animation: show 0.8s forwards;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@keyframes hide {
+    from {
+        transform: scale(1);
+        filter: blur(0);
+    }
+    to {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(233, 233, 233, 0.5);
+    
+    }
+}
+
+@keyframes show {
+    from {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(233, 233, 233, 0.5);
+    }
+    to {
+        transform: scale(1.2);
+        filter: blur(0);
+      
+    }
+}
