@@ -5,19 +5,21 @@ import IntroAboutText from "./IntroAboutText";
 import IntroText from "./IntroText";
 
 const introText = ["Hello", " I am", "Sudarshan Rai"];
-const content = "I have 4+ years of coding experience."
+const content = "I have 4+ years of coding experience.";
+const animationTime = 2;
 
 const Home = () => {
     const { animationStep } = useContext(AnimationContext);
 
-    useEffect( () => {
-        console.log(animationStep)
-    },[animationStep])
+    useEffect(() => {
+    }, [animationStep]);
 
     return (
         <main>
             <IntroText text={introText} />
-            {animationStep > 5 && <IntroAboutText content={content}/>}
+            {animationStep > 5 && (
+                <IntroAboutText content={content} animationTime={animationTime} />
+            )}
         </main>
     );
 };
