@@ -1,5 +1,17 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
 .typewriter-cursor {
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     animation: blink-caret 0.8s linear infinite;
 }

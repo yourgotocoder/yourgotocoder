@@ -26,15 +26,18 @@ const IntroAboutText = (props: Props) => {
                 setCurrentCharacterIndex((prevValue) => prevValue + 1);
 
                 console.log(timeForEachCharacter * (currentCharacterIndex + 1));
-            }, timeForEachCharacter + currentCharacterIndex);
+            }, timeForEachCharacter);
 
         return () => {
             clearTimeout(timer);
         };
     }, [visibleText, currentCharacterIndex]);
     return (
-        <div style={{color: "white"}}>
-            {visibleText}<span className={styles["typewriter-cursor"]}>|</span>
+        <div className={styles["container"]}>
+            <p>
+                {visibleText}
+                <span className={styles["typewriter-cursor"]}>|</span>
+            </p>
         </div>
     );
 };
