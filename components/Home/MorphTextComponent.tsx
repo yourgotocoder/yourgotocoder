@@ -26,11 +26,7 @@ const MorphTextComponent = (props: Props) => {
         <div className={styles["morph-content"]}>
             <p
                 className={`${
-                    morphing
-                        ? styles["morphing-hide"]
-                        : animationStep < 13
-                        ? styles["morphing-show"]
-                        : styles["hide"]
+                    morphing ? styles["morphing-hide"] : styles["morphing-show"]
                 }`}
             >
                 {morphing ? oldText : newText}

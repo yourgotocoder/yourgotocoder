@@ -25,7 +25,6 @@ const IntroAboutText = (props: Props) => {
                 );
                 setCurrentCharacterIndex((prevValue) => prevValue + 1);
 
-                console.log(timeForEachCharacter * (currentCharacterIndex + 1));
             }, timeForEachCharacter);
 
         return () => {

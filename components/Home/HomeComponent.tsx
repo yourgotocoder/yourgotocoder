@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import AnimationContext from "../../store/AnimationContext";
 import styles from "./HomeComponent.module.css";
+import HomeMainContent from "./HomeMainContent";
 import IntroAboutText from "./IntroAboutText";
 import IntroText from "./IntroText";
 import MorphTextComponent from "./MorphTextComponent";
@@ -25,8 +26,10 @@ const Home = () => {
                     animationTime={animationTime}
                 />
             )}
-            {animationStep >= 10 && <MorphTextComponent oldText={content} newText={newText} />}
-            {animationStep > 13}
+            {animationStep >= 10 && animationStep < 13 && (
+                <MorphTextComponent oldText={content} newText={newText} />
+            )}
+            {animationStep > 12 && <HomeMainContent />}
         </main>
     );
 };
