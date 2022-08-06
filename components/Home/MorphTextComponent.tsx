@@ -27,7 +27,7 @@ const MorphTextComponent = (props: Props) => {
         return () => {
             clearTimeout(timer);
         };
-    }, [morphing, widthOfParagraph]);
+    }, [morphing, widthOfParagraph, fontSize, newText.length]);
 
     return (
         <div className={styles["morph-content"]}>

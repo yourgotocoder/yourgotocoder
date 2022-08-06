@@ -24,13 +24,12 @@ const IntroAboutText = (props: Props) => {
                         prevString + characterArray[currentCharacterIndex]
                 );
                 setCurrentCharacterIndex((prevValue) => prevValue + 1);
-
             }, timeForEachCharacter);
 
         return () => {
             clearTimeout(timer);
         };
-    }, [visibleText, currentCharacterIndex]);
+    }, [visibleText, currentCharacterIndex, animationTime, content]);
     return (
         <div className={styles["container"]}>
             <p>
