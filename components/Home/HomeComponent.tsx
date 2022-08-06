@@ -7,8 +7,7 @@ import IntroText from "./IntroText";
 import MorphTextComponent from "./MorphTextComponent";
 
 const introText = ["Hello", " I am", "Sudarshan Rai"];
-const content =
-    "I am a fullstack engineer with 4+ years of coding experience in javascript and familiarity in various other languages";
+const content = "I am a fullstack engineer with 4+ years of coding experience";
 const animationTime = 3;
 const newText = "And here is my...";
 
@@ -20,14 +19,18 @@ const Home = () => {
     return (
         <main>
             {animationStep < 5 && <IntroText text={introText} />}
-            {animationStep > 5 && animationStep < 10 && (
+            {animationStep > 4 && animationStep < 10 && (
                 <IntroAboutText
                     content={content}
                     animationTime={animationTime}
                 />
             )}
             {animationStep >= 10 && animationStep < 13 && (
-                <MorphTextComponent oldText={content} newText={newText} />
+                <MorphTextComponent
+                    oldText={content}
+                    newText={newText}
+                    fontSize={16}
+                />
             )}
             {animationStep > 12 && <HomeMainContent />}
         </main>

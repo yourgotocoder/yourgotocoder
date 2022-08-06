@@ -23,7 +23,6 @@
 @keyframes hide {
     from {
         transform: scale(1);
-        filter: blur(0);
     }
     to {
         color: transparent;
@@ -39,7 +38,5 @@
     }
     to {
         transform: scale(1.2);
-        filter: blur(0);
-      
     }
 }
