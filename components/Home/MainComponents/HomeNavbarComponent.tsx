@@ -27,6 +27,17 @@ const HomeNavbarComponent = (props: Props) => {
                     >
                         Blog
                     </Button>
+                    <Button
+                        variant="outlined"
+                        sx={{
+                            color: "mediumpurple",
+                            "&:hover": {
+                                color: "darkorange",
+                            },
+                        }}
+                    >
+                        About Me
+                    </Button>
                     {matches && <Button
                         variant="outlined"
                         sx={{
@@ -36,12 +47,12 @@ const HomeNavbarComponent = (props: Props) => {
                             },
                         }}
                     >
-                        Contact Me
+                        Contact
                     </Button>}
                 </Stack>
             </div>
             <div>
-                <a href="https://github.com/yourgotocoder" target="_blank">
+                <a href="https://github.com/yourgotocoder" target="_blank" rel="noreferrer">
                     <Tooltip title="My GitHub profile">
                         <IconButton
                             sx={{
