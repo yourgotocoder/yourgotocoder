@@ -5,16 +5,16 @@ import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 type Props = {};
 
 const HomeNavbarComponent = (props: Props) => {
-    const matches = useMediaQuery('(min-width:600px)');
+    const matches = useMediaQuery("(min-width:600px)");
 
     return (
         <nav className={styles["navbar"]}>
-            <div className={styles['fade-in-btn']}>
+            <div className={styles["fade-in-btn"]}>
                 <Stack spacing={2} direction="row">
                     <Button
                         variant="outlined"
@@ -38,22 +38,28 @@ const HomeNavbarComponent = (props: Props) => {
                     >
                         About Me
                     </Button>
-                    {matches && <Button
-                        variant="outlined"
-                        sx={{
-                            color: "mediumpurple",
-                            "&:hover": {
-                                color: "darkorange",
-                            },
-                        }}
-                    >
-                        Contact
-                    </Button>}
+                    {matches && (
+                        <Button
+                            variant="outlined"
+                            sx={{
+                                color: "mediumpurple",
+                                "&:hover": {
+                                    color: "darkorange",
+                                },
+                            }}
+                        >
+                            Contact
+                        </Button>
+                    )}
                 </Stack>
             </div>
             <div>
-                <a href="https://github.com/yourgotocoder" target="_blank" rel="noreferrer">
-                    <Tooltip title="My GitHub profile">
+                <Tooltip title="Repo for this site">
+                    <a
+                        href="https://github.com/yourgotocoder/yourgotocoder"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <IconButton
                             sx={{
                                 color: "mediumpurple",
@@ -64,8 +70,8 @@ const HomeNavbarComponent = (props: Props) => {
                         >
                             <GitHubIcon />
                         </IconButton>
-                    </Tooltip>
-                </a>
+                    </a>
+                </Tooltip>
             </div>
         </nav>
     );

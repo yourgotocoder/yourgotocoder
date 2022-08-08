@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import AnimationContext from "../../store/AnimationContext";
+import SocialLinks from "../Common/SocialLinks/SocialLinks";
 import styles from "./HomeComponent.module.css";
 import HomeMainContent from "./HomeMainContent";
 import IntroAboutText from "./IntroAboutText";
@@ -17,7 +18,7 @@ const Home = () => {
     useEffect(() => {}, [animationStep]);
 
     return (
-        <main>
+        <main style={{position: "relative"}}>
             {animationStep < 5 && <IntroText text={introText} />}
             {animationStep > 4 && animationStep < 10 && (
                 <IntroAboutText
@@ -33,6 +34,7 @@ const Home = () => {
                 />
             )}
             {animationStep > 12 && <HomeMainContent />}
+            {animationStep >  12 && <SocialLinks />}
         </main>
     );
 };

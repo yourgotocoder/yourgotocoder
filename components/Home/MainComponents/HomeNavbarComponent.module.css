@@ -6,7 +6,7 @@
 }
 
 .fade-in-btn {
-    animation: fade-in 0.8s ease-in forwards;
+    animation: fade-in 1.8s ease-in forwards;
 }
 
 @keyframes fade-in {
