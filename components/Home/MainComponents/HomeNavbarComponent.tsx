@@ -27,17 +27,6 @@ const HomeNavbarComponent = (props: Props) => {
                     >
                         Blog
                     </Button>
-                    <Button
-                        variant="outlined"
-                        sx={{
-                            color: "mediumpurple",
-                            "&:hover": {
-                                color: "darkorange",
-                            },
-                        }}
-                    >
-                        About Me
-                    </Button>
                     {matches && (
                         <Button
                             variant="outlined"
