@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import Link from "next/link";
 
 type Props = {};
 
@@ -16,17 +17,19 @@ const HomeNavbarComponent = (props: Props) => {
         <nav className={styles["navbar"]}>
             <div className={styles["fade-in-btn"]}>
                 <Stack spacing={2} direction="row">
-                    <Button
-                        variant="outlined"
-                        sx={{
-                            color: "mediumpurple",
-                            "&:hover": {
-                                color: "darkorange",
-                            },
-                        }}
-                    >
-                        Blog
-                    </Button>
+                    <Link href="/blog">
+                        <Button
+                            variant="outlined"
+                            sx={{
+                                color: "mediumpurple",
+                                "&:hover": {
+                                    color: "darkorange",
+                                },
+                            }}
+                        >
+                            Blog
+                        </Button>
+                    </Link>
                     {matches && (
                         <Button
                             variant="outlined"

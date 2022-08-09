@@ -1,0 +1,27 @@
+.profile-card {
+    width: 35%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    position: relative;
+    left: 30%;
+    min-height: 40vh;
+    transform: translateX(-60%);
+}
+
+@media only screen and (max-width: 720px)  {
+    .profile-card {
+        width: 55%;
+        margin: 0 auto;
+        left: 0;
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .profile-card {
+        width: 95%;
+        margin: 0 auto;
+        left: 0;
+        transform: translateX(0);
+    }
+}
