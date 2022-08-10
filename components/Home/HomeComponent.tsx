@@ -10,7 +10,7 @@ import MorphTextComponent from "./MorphTextComponent";
 const introText = ["Hello", " I am", "Sudarshan Rai"];
 const content = "I am a fullstack engineer with 4+ years of coding experience";
 const animationTime = 3;
-const newText = "And here is my...";
+const newText = "And here is...";
 
 const Home = () => {
     const { animationStep } = useContext(AnimationContext);
