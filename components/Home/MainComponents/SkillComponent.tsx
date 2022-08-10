@@ -26,6 +26,7 @@ const SkillComponent = (props: SkillProps) => {
                             color: index < rating ? "gold" : "GrayText",
                         }}
                         fontSize="inherit"
+                        key={element + index + skill}
                     >
                     </StarsIcon>
                 ))}
