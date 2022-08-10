@@ -34,7 +34,7 @@ const Home = () => {
                 />
             )}
             {animationStep > 12 && <HomeMainContent />}
-            {animationStep >  12 && <SocialLinks />}
+            {animationStep >  12 && <SocialLinks />}    
         </main>
     );
 };
