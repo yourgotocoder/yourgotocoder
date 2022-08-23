@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2.4326515cm"
+   height="2.0791733cm"
+   viewBox="0 0 24.326515 20.791733"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title11">Yourgotocoder Logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient646">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop642" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop644" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient574">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="0"
+         id="stop570" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="1"
+         id="stop572" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient574"
+       id="linearGradient576"
+       x1="16.915041"
+       y1="23.222382"
+       x2="5.31144"
+       y2="5.4454255"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient646"
+       id="linearGradient648"
+       x1="17.419147"
+       y1="25.554476"
+       x2="31.829102"
+       y2="10.776268"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-6.149816,-7.5842654)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.871px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient576);fill-opacity:1;stroke:none;stroke-width:0.771776"
+       x="4.4022236"
+       y="24.061785"
+       id="text384"
+       transform="scale(1.003069,0.99694038)"><tspan
+         id="tspan382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.871px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient576);fill-opacity:1;stroke-width:0.771776"
+         x="4.4022236"
+         y="24.061785">s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6619px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient648);fill-opacity:1;stroke:none;stroke-width:0.441549"
+       x="16.265823"
+       y="25.835316"
+       id="text388"
+       transform="scale(1.0162463,0.98401342)"><tspan
+         id="tspan386"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6619px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient648);fill-opacity:1;stroke-width:0.441549"
+         x="16.265823"
+         y="25.835316">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="10.850357"
+       y="27.935715"
+       id="text504"><tspan
+         id="tspan502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ececec;stroke-width:0.264583"
+         x="10.850357"
+         y="27.935715"><tspan
+   style="fill:#000000"
+   id="tspan506">your</tspan>goto<tspan
+   style="fill:#000000"
+   id="tspan508">coder</tspan></tspan></text>
+  </g>
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Yourgotocoder Logo</dc:title>
+        <dc:date>08-23-2022</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sudarshan Rai</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>www.yourgotocoder.com/logo</dc:source>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Sudarshan Rai</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Logo for portfolio page. Sudarshan Rai</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Logo. Yourgotocoder. Sudu Rai. Sudarshan Rai</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:language>English</dc:language>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>yourgotocoder, Sudu Rai, Sudarshan Rai</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

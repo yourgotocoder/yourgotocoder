@@ -9,7 +9,7 @@ import HomeComponent from "../components/Home/HomeComponent";
       <Head>
         <title>Homepage | Yourgotocoder</title>
         <meta name="description" content="My portfolio page. Sudarshan Rai." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" about="Sudu Rais' icon. Yourgotocoder."/>
       </Head>
       <HomeComponent />
     </div>
