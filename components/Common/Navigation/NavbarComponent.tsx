@@ -14,36 +14,38 @@ type Props = {};
 
 const NavbarComponent = (props: Props) => {
     const matches = useMediaQuery("(max-width:900px)");
-    const router = useRouter();
+    const pathname = useRouter().pathname;
 
     return (
         <nav className={styles["navbar"]}>
             <div>
                 {!matches && (
                     <Stack spacing={2} direction="row">
-                        {router.pathname !== "/" && (
+                        {pathname !== "/" && (
                             <Link href="/">
-                                <Button
-                                    variant="outlined"
-                                    sx={{
-                                        color: "mediumpurple",
-                                        "&:hover": {
-                                            color: "darkorange",
-                                        },
-                                    }}
-                                >
-                                    <HouseIcon />
-                                </Button>
+                                <Tooltip title="Home">
+                                    <Button
+                                        variant={pathname === "/" && "outlined" || "text"}
+                                        sx={{
+                                            color: "primary",
+                                            "&:hover": {
+                                                color: "HighlightText",
+                                            },
+                                        }}
+                                    >
+                                        <HouseIcon />
+                                    </Button>
+                                </Tooltip>
                             </Link>
                         )}
-                        {router.pathname !== "/about" && (
+                        {pathname !== "/about" && (
                             <Link href="/about">
                                 <Button
-                                    variant="outlined"
+                                    variant={pathname === "/" && "outlined" || "text"}
                                     sx={{
-                                        color: "mediumpurple",
+                                        color: "primary",
                                         "&:hover": {
-                                            color: "darkorange",
+                                            color: "HighlightText",
                                         },
                                     }}
                                 >
@@ -51,17 +53,19 @@ const NavbarComponent = (props: Props) => {
                                 </Button>
                             </Link>
                         )}
-                        <Button
-                            variant="outlined"
-                            sx={{
-                                color: "mediumpurple",
-                                "&:hover": {
-                                    color: "darkorange",
-                                },
-                            }}
-                        >
-                            Contact
-                        </Button>
+                        {pathname !== "/" && (
+                            <Button
+                                variant="outlined"
+                                sx={{
+                                    color: "primary",
+                                    "&:hover": {
+                                        color: "HighlightText",
+                                    },
+                                }}
+                            >
+                                Contact
+                            </Button>
+                        )}
                     </Stack>
                 )}
             </div>
@@ -74,9 +78,9 @@ const NavbarComponent = (props: Props) => {
                     >
                         <IconButton
                             sx={{
-                                color: "mediumpurple",
+                                color: "black",
                                 "&:hover": {
-                                    color: "darkorange",
+                                    color: "gray",
                                 },
                             }}
                         >

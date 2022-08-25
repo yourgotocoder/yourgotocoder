@@ -6,12 +6,12 @@ type Props = {};
 
 const HomeMainContent = (props: Props) => {
     return (
-      <div>
+      <>
         <main className={styles["home-content"]}>
             <h1 className={styles["home-header"]}>Hello, I am Sudarshan Rai</h1>
             <h2></h2>
         </main>
-      </div>
+      </>
     );
 };
 
