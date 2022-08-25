@@ -7,8 +7,8 @@ import HomeComponent from "../components/Home/HomeComponent";
   return (
     <div>
       <Head>
-        <title>Homepage | Yourgotocoder</title>
-        <meta name="description" content="My portfolio page. Sudarshan Rai." />
+        <title>Sudarshan Rai | Yourgotocoder</title>
+        <meta name="description" content="Software developer from Sikkim, India. " />
         <link rel="icon" href="/favicon.ico" about="Sudu Rais' icon. Yourgotocoder."/>
       </Head>
       <HomeComponent />
