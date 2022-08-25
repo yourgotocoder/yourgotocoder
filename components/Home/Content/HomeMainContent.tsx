@@ -1,14 +1,18 @@
-import React from 'react'
-import HomeNavbarComponent from '../../Common/Navigation/HomeNavbarComponent'
+import React from "react";
+import FooterComponent from "../../Footer/FooterComponent";
+import styles from "./HomeMainContent.module.css";
 
-type Props = {}
+type Props = {};
 
 const HomeMainContent = (props: Props) => {
-  return (
-    <div style={{color: "white", minHeight: "100vh"}}>
-        <HomeNavbarComponent />
-    </div>
-  )
-}
+    return (
+      <div>
+        <main className={styles["home-content"]}>
+            <h1 className={styles["home-header"]}>Hello, I am Sudarshan Rai</h1>
+            <h2></h2>
+        </main>
+      </div>
+    );
+};
 
-export default HomeMainContent
+export default HomeMainContent;
