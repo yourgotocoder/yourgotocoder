@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./AboutMeComponent.module.css";
+import styles from "./AboutMeContent.module.css";
 
 type Props = {};
 
 const AboutMeContent = (props: Props) => {
-  return <div>AboutMeContent</div>;
+  return <main className={styles["about-me-main"]}>AboutMeContent</main>;
 };
 
 export default AboutMeContent;

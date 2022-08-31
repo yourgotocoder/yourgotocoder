@@ -19,6 +19,7 @@ const contact = (props: Props) => {
           href="/favicon.ico"
           about="Sudu Rais' icon. Yourgotocoder."
         />
+        <meta name="robots" content="noindex" />
       </Head>
       <NavbarComponent />
       <Contact/>
