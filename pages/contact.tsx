@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import NavbarComponent from "../components/Common/Navigation/NavbarComponent";
+import Contact from "../components/Contact/Contact";
 
 type Props = {};
 
@@ -20,6 +21,7 @@ const contact = (props: Props) => {
         />
       </Head>
       <NavbarComponent />
+      <Contact/>
     </div>
   );
 };

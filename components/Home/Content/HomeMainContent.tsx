@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Tooltip } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import EmailIcon from '@mui/icons-material/Email';
@@ -44,7 +44,9 @@ const HomeMainContent = (props: Props) => {
         </div>
         <div>
           <a href="mailto:sudarshan@yourgotocoder.com?cc=yourgotocoder@gmail.com" style={{textDecoration: "none"}} target="_blank" rel="noreferrer">
-             <Button variant="contained"><EmailIcon/></Button>
+             <Tooltip title="Email Me">
+              <Button variant="contained"><EmailIcon/></Button>
+             </Tooltip>
           </a>
         </div>
       </main>
