@@ -21,10 +21,10 @@ const NavbarComponent = (props: Props) => {
       <div>
         <Stack spacing={2} direction="row">
           {pathname !== "/" && (
-            <Link href="/">
+            <Link href="/" passHref>
               <Tooltip title="Home">
                 <Button
-                  variant={(pathname !== "/" && "outlined") || "text"}
+                  variant="outlined"
                   sx={{
                     color: "primary",
                     "&:hover": {
@@ -38,9 +38,9 @@ const NavbarComponent = (props: Props) => {
             </Link>
           )}
           {pathname !== "/about" && (
-            <Link href="/about">
+            <Link href="/about" passHref>
               <Button
-                variant={(pathname === "/" && "outlined") || "text"}
+                variant="outlined"
                 sx={{
                   color: "primary",
                   "&:hover": {
@@ -52,18 +52,20 @@ const NavbarComponent = (props: Props) => {
               </Button>
             </Link>
           )}
-          {pathname !== "/" && (
-            <Button
-              variant="outlined"
-              sx={{
-                color: "primary",
-                "&:hover": {
-                  color: "HighlightText",
-                },
-              }}
-            >
-              Contact
-            </Button>
+          {pathname !== "/contact" && (
+            <Link href="/contact" passHref>
+              <Button
+                variant="outlined"
+                sx={{
+                  color: "primary",
+                  "&:hover": {
+                    color: "HighlightText",
+                  },
+                }}
+              >
+                Contact
+              </Button>
+            </Link>
           )}
         </Stack>
       </div>
