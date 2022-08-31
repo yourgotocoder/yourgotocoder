@@ -8,8 +8,8 @@ type Props = {};
 const HomeMainContent = (props: Props) => {
   return (
     <>
-      <main className={styles["home-content"]}>
-        <div>
+      <main className={styles["home-layout"]}>
+        <div className={styles["home-content"]}>
           <Typography
             variant="h3"
             component="h1"
@@ -20,13 +20,13 @@ const HomeMainContent = (props: Props) => {
             Software should be simple. Easy to use.
           </Typography>
 
-          <Typography variant="h5" component="h2" color="GrayText" sx={{mb: 2}}>
+          <Typography variant="h5" component="h2" color="GrayText" sx={{mb: 2}} className={styles["home-content-subheader"]}>
             A software developer can build tools to make your life easy. A good
             software engineer can take away the complexity of turning your ideas
             into reality while at the same time giving you a reliable product
             that you know will work everytime, the way you want it to work.{" "}
           </Typography>
-          <Typography variant="h6" component="h3" color="black">I am Sudarshan Rai, a software developer/engineer with 4 years of real world coding experience</Typography>
+          <Typography variant="h6" component="h3" color="black" className={styles["home-content-about-me"]}>I am Sudarshan Rai, a software developer/engineer with 4 years of real world coding experience</Typography>
         </div>
       </main>
     </>
