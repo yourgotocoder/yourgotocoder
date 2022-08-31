@@ -69,9 +69,10 @@ const Contact = (props) => {
                     "&:hover": {
                       color: "#0185C6",
                     },
+                    minWidth: "40px"
                   }}
                 >
-                  <AttachEmailOutlinedIcon />
+                  <AttachEmailOutlinedIcon fontSize="large"/>
                 </Button>
               </Tooltip>
             </Box>
