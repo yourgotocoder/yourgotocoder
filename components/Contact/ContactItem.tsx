@@ -20,6 +20,7 @@ const ContactItem = (props: Props) => {
               "&:hover": {
                 color: `${props.iconHoverColor}`,
               },
+              minWidth: "40px"
             }}
           >
             {props.children}
