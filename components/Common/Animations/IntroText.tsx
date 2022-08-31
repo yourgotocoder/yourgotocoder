@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import AnimationContext from "../../store/AnimationContext";
+import AnimationContext from "../../../store/AnimationContext";
 import styles from "./IntroText.module.css";
 
 type IntroProps = {

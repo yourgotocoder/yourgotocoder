@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: white;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.fade-in-btn {
+    animation: fade-in 1.8s ease-in forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 481px) and (max-width: 900px){
+    .navbar {
+        width: 90%;
+    }
+}
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .navbar {
+        width: 100%;
+    }
+}
+
