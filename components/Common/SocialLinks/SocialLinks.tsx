@@ -13,7 +13,7 @@ type Props = {};
 
 const SocialLinks = (props: Props) => {
     return (
-        <div className={styles["social-content"]}>
+        <div className={styles["social-content"]} >
             <Stack spacing={1} direction="row">
                 <Box>
                     <Tooltip title="GitHub Profile">
