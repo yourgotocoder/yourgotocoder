@@ -1,7 +1,7 @@
 import { Button, Tooltip } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import React from "react";
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from "@mui/icons-material/Email";
 import styles from "./HomeMainContent.module.css";
 
 type Props = {};
@@ -18,7 +18,7 @@ const HomeMainContent = (props: Props) => {
             className={styles["home-content-header"]}
             sx={{ mb: 1 }}
           >
-            Software should be simple. Easy to use.
+            Software should be simple. <br /> Easy to use.
           </Typography>
 
           <Typography
@@ -29,8 +29,8 @@ const HomeMainContent = (props: Props) => {
             className={styles["home-content-subheader"]}
           >
             A software developer can build tools to make your life easy. A good
-            software engineer can take away the complexity involved in turning your vision
-            into reality.{" "}
+            software engineer can take away the complexity involved in turning
+            your vision into reality.{" "}
           </Typography>
           <Typography
             variant="h6"
@@ -43,10 +43,17 @@ const HomeMainContent = (props: Props) => {
           </Typography>
         </div>
         <div>
-          <a href="mailto:sudarshan@yourgotocoder.com?cc=yourgotocoder@gmail.com" style={{textDecoration: "none"}} target="_blank" rel="noreferrer">
-             <Tooltip title="Email Me">
-              <Button variant="contained"><EmailIcon/></Button>
-             </Tooltip>
+          <a
+            href="mailto:sudarshan@yourgotocoder.com?cc=yourgotocoder@gmail.com"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Tooltip title="Email Me">
+              <Button variant="contained">
+                <EmailIcon />
+              </Button>
+            </Tooltip>
           </a>
         </div>
       </main>
