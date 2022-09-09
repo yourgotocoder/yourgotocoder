@@ -18,5 +18,4 @@
 <h3>About me</h3>
 <p>I'm a fullstack engineer with 4+ years experience</p> 
 <p>My portfolio http://yourgotocoder.com/.</p>
-
 [![Views](https://komarev.com/ghpvc/?username=yourgotocoder&color=yellow&style=for-the-badge&label=PORTFOLIO+VIEWS)](https://yourgotocoder.com/) 
