@@ -2,7 +2,6 @@
 
 <h3>Here is an overview of my GitHub activities</h3> 
 
-
 <!-- Github Profile Summary -->
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/0-profile-details.svg)
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/1-repos-per-language.svg)
