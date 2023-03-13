@@ -5,8 +5,8 @@
 <!-- Github Profile Summary -->
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/0-profile-details.svg)
 <!-- ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/1-repos-per-language.svg) -->
-<!-- ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/2-most-commit-language.svg) -->
-![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/3-stats.svg)
+![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/2-most-commit-language.svg)
+<!-- ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/3-stats.svg) -->
 ![](https://raw.githubusercontent.com/yourgotocoder/yourgotocoder/main/profile-summary-card-output/monokai/4-productive-time.svg)
 <!--Keeping the streak alive  -->
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=yourgotocoder&theme=monokai-metallian)](https://git.io/streak-stats)
