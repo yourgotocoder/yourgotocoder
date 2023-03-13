@@ -1,5 +1,5 @@
 <h2 align="center">Hello, I'm Sudarshan Rai  <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h2>
-<h3 align="center">I'm a fullstack engineer with 4+ years experience & here is my <a href="https://yourgotocoder.com/">portfolio</a></h3>
+<h3 align="center">I'm a fullstack engineer with 4+ years experience & you can <a href="https://yourgotocoder.com/">click here</a> to see my portfolio</h3>
 
 <h3>Here is an overview of my GitHub activities</h3> 
 
